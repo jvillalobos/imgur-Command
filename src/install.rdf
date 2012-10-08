@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<!--
+  - This Source Code Form is subject to the terms of the Mozilla Public
+  - License, v. 2.0. If a copy of the MPL was not distributed with this
+  - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  -->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>imgur-command@xulforge.com</em:id>
+    <em:name>imgur Command</em:name>
+    <em:description>Upload screenshots to imurg from the web developer tools.
+    </em:description>
+    <em:version>0.1</em:version>
+    <em:creator>Jorge Villalobos</em:creator>
+    <em:bootstrap>true</em:bootstrap>
+    <em:type>2</em:type>
+
+    <!-- Mozilla Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>16.0</em:minVersion>
+        <em:maxVersion>18.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+</RDF>
